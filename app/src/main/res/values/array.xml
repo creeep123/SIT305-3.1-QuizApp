@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="arrayQuiz">
+        <item>@array/Q1</item>
+        <item>@array/Q2</item>
+        <item>@array/Q3</item>
+        <item>@array/Q4</item>
+        <item>@array/Q5</item>
+    </array>
+    <string-array name="Q1">
+        <!--    correct answer: A    -->
+        <item>String Comparing</item>
+        <item>Which one will return the result of comparing the content of two strings?</item>
+        <item>stringA.equals(stringB)</item>
+        <item>stringA == stringB</item>
+        <item>StringA = stringB</item>
+    </string-array>
+
+    <string-array name="Q2">
+        <!--    correct answer: B    -->
+        <item>Activity Shot Down</item>
+        <item>Which one of the following function is used to shot down all the activities in your activity stack?</item>
+        <item>finishActivity()</item>
+        <item>finishAffinity()</item>
+        <item>finishActivities()</item>
+    </string-array>
+
+    <string-array name="Q3">
+        <!--    correct answer: C    -->
+        <item>Pass Values</item>
+        <item>Which one is related to passing value between different activities?</item>
+        <item>setText()</item>
+        <item>onCreate()</item>
+        <item>getIntent()</item>
+    </string-array>
+
+    <string-array name="Q4">
+        <!--    correct answer: A    -->
+        <item>Find Component</item>
+        <item>Which one is used to find view component according to Id?</item>
+        <item>findViewById(R.id.my_view_id)</item>
+        <item>findViewById(my_view_id)</item>
+        <item>findResourceById(R.id.my_view_id)</item>
+    </string-array>
+
+    <string-array name="Q5">
+        <!--    correct answer: B    -->
+        <item>Activity Result</item>
+        <item>Which one is used to get a result from another activity?</item>
+        <item>onCreate()</item>
+        <item>startActivityForResult()</item>
+        <item>onClick()</item>
+    </string-array>
+    <item name="arrayQuiz" type="id" />
+</resources>
